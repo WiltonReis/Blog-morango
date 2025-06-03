@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            color: #333;
+        }
+        p {
+            font-size: 1.5em;
+            color: #666;
+        }
+        a {
+            text-decoration: none;
+            color: #069;
+        }
+    </style>
+</head>
+<body>
+    <h1>Login</h1>
+    <p>Portal de produtores rurais</p>
+    <form action="/login" method="post">
+        <p>
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required>
+        </p>
+        <p>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+        </p>
+        <p>
+            <button type="submit">Entrar</button>
+        </p>
+    </form>
+    <p><a href="/">Voltar para home</a></p>
+</body>
+</html>

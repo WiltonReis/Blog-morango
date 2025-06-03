@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Criar Novo Post - Morango</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 700px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 0.5rem;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+        textarea {
+            min-height: 150px;
+        }
+        button {
+            padding: 0.7rem;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.2s ease;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        a {
+            display: inline-block;
+            margin-top: 1rem;
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Criar Novo Post</h1>
+    <form th:action="@{/posts}" method="post" th:object="${post}">
+        <input type="text" th:field="*{title}" placeholder="Título do post" required />
+        <textarea th:field="*{content}" placeholder="Conteúdo do post" required></textarea>
+        <button type="submit">Publicar</button>
+    </form>
+    <a th:href="@{/}">&larr; Voltar para a página principal</a>
+</body>
+</html>

@@ -1,0 +1,13 @@
+com\morango\model\entities\User.class
+com\morango\security\JwtUtil.class
+com\morango\model\dto\UserAuthDTO.class
+com\morango\service\AuthorizationService.class
+com\morango\security\SecurityConfig.class
+com\morango\model\entities\Produtor.class
+com\morango\controller\HomeController.class
+com\morango\controller\AuthController.class
+com\morango\repository\ProdutorRepository.class
+com\morango\controller\ProdutorController.class
+com\morango\Application.class
+com\morango\service\ProdutorService.class
+com\morango\repository\UserRepository.class

@@ -1,0 +1,14 @@
+C:\Users\corporativa1\Desktop\Projetos\ws-vsCode\natanael\backend\src\main\java\com\morango\Application.java
+C:\Users\corporativa1\Desktop\Projetos\ws-vsCode\natanael\backend\src\main\java\com\morango\controller\AuthController.java
+C:\Users\corporativa1\Desktop\Projetos\ws-vsCode\natanael\backend\src\main\java\com\morango\controller\HomeController.java
+C:\Users\corporativa1\Desktop\Projetos\ws-vsCode\natanael\backend\src\main\java\com\morango\controller\ProdutorController.java
+C:\Users\corporativa1\Desktop\Projetos\ws-vsCode\natanael\backend\src\main\java\com\morango\model\dto\UserAuthDTO.java
+C:\Users\corporativa1\Desktop\Projetos\ws-vsCode\natanael\backend\src\main\java\com\morango\model\entities\Produtor.java
+C:\Users\corporativa1\Desktop\Projetos\ws-vsCode\natanael\backend\src\main\java\com\morango\model\entities\User.java
+C:\Users\corporativa1\Desktop\Projetos\ws-vsCode\natanael\backend\src\main\java\com\morango\repository\ProdutorRepository.java
+C:\Users\corporativa1\Desktop\Projetos\ws-vsCode\natanael\backend\src\main\java\com\morango\repository\UserRepository.java
+C:\Users\corporativa1\Desktop\Projetos\ws-vsCode\natanael\backend\src\main\java\com\morango\security\JwtFilter.java
+C:\Users\corporativa1\Desktop\Projetos\ws-vsCode\natanael\backend\src\main\java\com\morango\security\JwtUtil.java
+C:\Users\corporativa1\Desktop\Projetos\ws-vsCode\natanael\backend\src\main\java\com\morango\security\SecurityConfig.java
+C:\Users\corporativa1\Desktop\Projetos\ws-vsCode\natanael\backend\src\main\java\com\morango\service\AuthorizationService.java
+C:\Users\corporativa1\Desktop\Projetos\ws-vsCode\natanael\backend\src\main\java\com\morango\service\ProdutorService.java
